@@ -18,10 +18,10 @@ function myfun(){
 var id=localStorage.getItem('nme');
 var pass=localStorage.getItem('pass');
 
-var otp = Math.floor((Math.random() * 100000) + 1);
+/*var otp = Math.floor((Math.random() * 100000) + 1);
 document.getElementById("otp").innerHTML = "Enter Generated Numbe:" + otp;
 
-/*var otpTest = document.getElementById('nom').value;
+var otpTest = document.getElementById('nom').value;
  if (otp === ot) {
  
  }
